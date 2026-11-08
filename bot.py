@@ -216,10 +216,8 @@ async def process_message(
 
 def main():
     if not TOKEN:
-        raise ValueError(
-            "Не задан токен Telegram-бота. "
-            "Укажите переменную окружения TG_TOKEN."
-        )
+        print("Ошибка: токен не введён.")
+        return
 
     application = ApplicationBuilder().token(TOKEN).build()
 
