@@ -1,0 +1,2 @@
+deeppavlov==1.7.0
+python-telegram-bot==21.10
