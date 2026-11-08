@@ -24,7 +24,7 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-TOKEN = os.getenv("TG_TOKEN")
+TOKEN = input("Введите токен Telegram-бота: ").strip()
 
 
 def get_keyboard():
